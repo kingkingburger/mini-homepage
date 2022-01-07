@@ -1,0 +1,132 @@
+.news-flex-box {
+  flex: 0 0 auto;
+  margin-bottom: 2rem;
+  display: flex;
+  font-size: 0.8rem;
+}
+
+.news-box {
+  flex: 1;
+}
+
+.update-box {
+  flex: 1;
+}
+
+.miniroom {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-title {
+  font-family: "KOTRA_BOLD-Bold";
+  border-bottom: 1px solid grey;
+  color: #3b87ab;
+}
+
+.news-row {
+  display: flex;
+  font-size: 0.85rem;
+  margin: 3px 0;
+}
+
+.news-category {
+  padding: 0 6px;
+  margin-right: 6px;
+  color: white;
+  border-radius: 3px;
+}
+
+.category-pic {
+  background-color: #f15f5f;
+}
+
+.category-post {
+  background-color: #617dc1;
+}
+
+.menu-row {
+  display: flex;
+  border-bottom: 1px dashed grey;
+  margin: 3px 0;
+}
+
+.menu-item {
+  flex: 1;
+}
+
+.menu-num {
+  font-family: "NeoDunggeunmo";
+  padding-left: 6px;
+  color: #003399;
+}
+
+.miniroom-gif-box {
+  background-color: #1597dd;
+  border: 1px solid #808080;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.miniroom-gif-box > img {
+  width: 30%;
+}
+
+.dropbtn {
+  background-color:crimson;
+  color: white;
+  padding: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 9px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.menu-container a {
+  color: black;
+  padding: 7px 15px;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  background-color:dodgerblue;
+  margin-top: 15px;
+  border-radius: 2px;
+  border: gray solid 1px;
+}
+
+.menu-container>.menu{
+  position:absolute;
+  margin-top: 40px;
+}
+.menu-container a:hover {
+  background-color:mediumturquoise;
+}

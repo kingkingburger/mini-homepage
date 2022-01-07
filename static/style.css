@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nanum+Myeongjo:wght@700&family=Noto+Sans+KR:wght@700&family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+@font-face {
+    font-family: 'KOTRA_BOLD-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.1/KOTRA_BOLD-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KyoboHand';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NeoDunggeunmo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-image: url("./images/pattern.png");
+    background-size: 100px;
+    background-color: gray;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.bookcover {
+    position: relative;
+    background-color: #b4d1da;
+    border-radius: 9px;
+    border: 1px solid #738186;
+
+    width: 960px;
+    height: 600px;
+
+    margin: 100px auto;
+}
+
+.bookdot {
+
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+
+    border: 2px dashed white;
+    border-radius: 9px;
+    padding: 15px;
+
+    position: absolute;
+}
+
+.page {
+    position: absolute;
+
+    border-radius: 9px;
+    background-color: white;
+
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background-color: #eeeeee;
+    display: flex;
+}
+
+.container {
+    position: absolute;
+
+    width: 55em;
+    height: 33em;
+    margin: 0 auto;
+
+    padding: 10px;
+    display: flex;
+
+}
+
+.column1 {
+    flex-basis: 10%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 9px;
+}
+
+.row1 {
+    flex: 0.1;
+    text-align: center;
+    font-size: smaller;
+}
+
+.row2 {
+    flex: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.main_img {
+    flex: 0.5 0.01 1;
+}
+.introduce_content {
+    flex: 1;
+}
+.simple_introduce {
+    flex: 0.05;
+}
+
+.column2 {
+
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 9px;
+}
+
+.row3 {
+    display: flex;
+    flex: 0.05;
+
+}
+
+.row4 {
+    flex: 0.5;
+    font-size: smaller;
+}
+
+.row5 {
+    flex: 0.5;
+    font-size: smaller;
+}
+
+.row6 {
+    display: flex;
+    flex-basis: 30%;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.row7 {
+    display: flex;
+    flex-basis: 30%;
+    flex-direction: column;
+    padding: 15px;
+}
+.update_news {
+    display: flex;
+    font-family:'Noto Sans KR';
+    font-size: 20px;
+    border-bottom: 2px solid gray;
+}
+.update_news_content {
+    flex: 0.3;
+    display: flex;
+    flex-direction: row;
+}
+.category {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-items: space-between;
+}
+.category_box {
+    display: flex;
+    flex-direction: row;
+}
+.category_box_photo {
+    text-align: center; 
+    display: flex;
+    flex: 0.7;
+    font-family: 'KOTRA_BOLD-Bold';
+    background-color:crimson;
+    color: white;
+    border-radius: 9px;
+    margin-right: 7px;
+}
+.category_box_write {
+    display: flex;
+    flex: 0.7;
+    font-family: 'KOTRA_BOLD-Bold';
+    background-color:blue;
+    color: white;
+    border-radius: 9px;
+    margin-right: 7px;
+}
+
+.category_box_content {
+    display: flex;
+    flex: 3;
+}
+
+.summary {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.summary_main {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.summary_main_content {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.summary_content_category {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    font-family: 'KyoboHand';
+}
+
+.summary_content_count {
+    display: flex;
+    color:dodgerblue;
+    font-family: 'NeoDunggeunmo';
+    font-size: 13px;
+}
+
+.Miniromm {
+    display: flex;
+    flex: 0.03;
+    font-family:'Noto Sans KR';
+    font-size: 20px;
+}
+
+.Miniromm_content {
+    display: flex;
+    flex: auto;
+}
+
+.column5 {
+    flex-basis: 10%;
+    display: flex;
+    border: 2px solid grey;
+    background-color: white;
+    border-radius: 9px;
+}
+
+.box {
+    border-radius: 9px;
+}

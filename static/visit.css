@@ -1,0 +1,54 @@
+.scroll-box {
+  position: absolute;
+  margin-top: 2rem;
+  top: 15px;
+  left: 267px;
+  right: 103px;
+  bottom: 15px;
+  overflow: auto;
+}
+.visitor {
+  margin-bottom: 5em;
+}
+.visit-container {
+  display: flex;
+}
+
+.visit-date {
+  margin: 15px;
+  padding: 15px;
+  background-color: darkgray;
+}
+
+.visit-img {
+  flex: 0 0 8rem;
+  height: 8rem;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+.background-1 {
+  background-image: url("./images/1.jpg");
+  background-size: cover;
+}
+.background-2 {
+  background-image: url("./images/2.jpg");
+  background-size: contain;
+}
+.background-3 {
+  background-image: url("./images/3.jpg");
+  background-size: cover;
+}
+
+.visit-img > img {
+  width: 80%;
+  height: 80%;
+  background-size: 10px;
+}
+.visit-content {
+  flex: 2;
+  margin: 15px;
+}

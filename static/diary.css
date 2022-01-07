@@ -1,0 +1,97 @@
+.date-box {
+    position: absolute;
+    top: 49px;
+    left: 267px;
+    right: 111px;
+    height: 3rem;
+  
+    border: 1px solid #e7e7e7;
+  
+    display: flex;
+    align-items: center;
+  }
+  
+  .today {
+    flex: 0 0 2rem;
+    margin: 0 1rem;
+    text-align: center;
+    color: #3b87ab;
+    font-weight: 700;
+  }
+  
+  .date-list {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .date {
+    flex: 0 0 1.5rem;
+    color: #707070;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .scroll-box {
+    position: absolute;
+    margin-top: 5rem;
+    top: 15px;
+    left: 267px;
+    right: 103px;
+    bottom: 15px;
+    overflow: auto;
+  }
+  
+  .color-red {
+      color: red;
+  }
+  
+  .color-blue {
+    color: blue;
+  }
+  .my-diary{
+    position: absolute;
+    margin-top: 3rem;
+    border: 1px solid #e7e7e7;
+    padding: 15px;
+    
+  }
+  .diary-date{
+      text-align: left;
+      
+  }
+  .diary-content{
+    text-align: center;
+    font-size:16px;
+    margin-bottom: 3rem;
+    padding: 5px;
+  }
+  .hidden{
+      background-color: white;
+      color:white;  
+  }
+  
+  .diary-button {
+    margin-top: 1rem;
+    background: #fff;
+    color: #fff;
+    padding: 1rem;
+    cursor: pointer;
+  
+    transition: 800ms ease all;
+    border: none;
+  }
+
+  .diary-button:hover {
+    background: #1aab8a;
+    color: #fff;
+  }
+  .button-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  #secret-box{
+    display: none;
+  }
